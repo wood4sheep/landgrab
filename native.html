@@ -26,7 +26,7 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
 
-      fetch('https://native-land.ca/api/index.php?maps=territories')
+      fetch('https://native-land.ca/api/index.php?key=TtoxXlLi3dgoiWxwOocOF&maps=territories')
         .then(response => response.json())
         .then(data => {
           data.forEach(territory => {
